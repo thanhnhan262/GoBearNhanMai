@@ -14,10 +14,14 @@ public class Listbox {
     public void selectItem(String itemName) {
         List<WebElement> items = webElement.findElements(By.tagName("li"));
         for (WebElement ele: items
-             ) {
+        ) {
             if (ele.getText().equals(itemName)) {
                 ele.click();
             }
         }
+    }
+
+    public void selectRandomItem() {
+        
     }
 }
