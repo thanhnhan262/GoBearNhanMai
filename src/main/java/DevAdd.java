@@ -1,7 +1,6 @@
 public class DevAdd {
-    public String getDevelopName() {
 
+    public String getDeveloperName() {
         return "no name1";
-
     }
 }
