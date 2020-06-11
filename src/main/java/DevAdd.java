@@ -1,5 +1,5 @@
 public class DevAdd {
-    public String getDevName() {
+    public String getDeveloperName() {
         return "no name1";
     }
 }
